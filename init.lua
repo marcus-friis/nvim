@@ -11,8 +11,8 @@ end
 
 -- Plugins
 vim.pack.add({
-    -- gh("ellisonleao/gruvbox.nvim"),
-    gh("Aejkatappaja/cendre"),
+    gh("ellisonleao/gruvbox.nvim"),
+    -- gh("Aejkatappaja/cendre"),
 
     gh("nvim-lua/plenary.nvim"),
     gh("nvim-tree/nvim-web-devicons"),
@@ -28,6 +28,7 @@ vim.pack.add({
     gh("stevearc/oil.nvim"),
     gh("nvim-lualine/lualine.nvim"),
     { src = gh("ThePrimeagen/harpoon"),            version = "harpoon2" },
+    gh("chomosuke/typst-preview.nvim"),
 
     gh("saghen/blink.cmp"),
     gh("lukas-reineke/indent-blankline.nvim"),
@@ -37,8 +38,8 @@ vim.pack.add({
     gh("windwp/nvim-ts-autotag"),
 }, { confirm = false })
 
--- vim.cmd.colorscheme("gruvbox")
-vim.cmd.colorscheme("cendre")
+vim.cmd.colorscheme("gruvbox")
+-- vim.cmd.colorscheme("cendre")
 vim.cmd("packadd nvim.undotree")
 vim.keymap.set("n", "<leader>u", require("undotree").open)
 
