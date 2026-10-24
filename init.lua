@@ -192,6 +192,7 @@ require("conform").setup({
         python = { "ruff_format" },
         svelte = { "prettier" },
         markdown = { "prettier" },
+        nix = { "nixfmt" },
     },
 })
 
